@@ -7,6 +7,7 @@ in the __same folder__ as the start.ps1
 
 ### Known Issues / Flaws
 - Only basic configurable
+- Paths need to be inserted with escaping in mind ("\\" instead of "\" e.g.)
 - A *tmp* folder is created within the root directory of the script which is not cleared after the script is run
   but is when the script is rerun (so only contains one backed up file at most)
 
