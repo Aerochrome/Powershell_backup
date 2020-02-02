@@ -5,11 +5,11 @@ paths with timestamps appended to these backed up files
 Source and target can be modified using the config.json file, which needs to be placed
 in the __same folder__ as the start.ps1
 
-## Known Issues / Flaws
+### Known Issues / Flaws
 - Only basic configurable
 - A *tmp* folder is created within the root directory of the script which is not cleared after the script is run
   but is when the script is rerun (so only contains one backed up file at most)
 
-## Planned Features
+### Planned Features
 - Backup to Google Drive
 - Show Progress while copying files
