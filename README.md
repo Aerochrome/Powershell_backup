@@ -9,3 +9,7 @@ in the __same folder__ as the start.ps1
 - Only basic configurable
 - A *tmp* folder is created within the root directory of the script which is not cleared after the script is run
   but is when the script is rerun (so only contains one backed up file at most)
+
+## Planned Features
+- Backup to Google Drive
+- Show Progress while copying files
